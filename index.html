@@ -209,12 +209,18 @@ I’m extremely driven, quick to learn, and passionate about applying technology
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/movergbz">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+            <form action="https://formspree.io/f/movergbz" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" required></textarea>
+                </label>
                 <button type="submit">Send</button>
             </form>
+            
         </div>
         <!-- End #contact-form -->
     </div>
